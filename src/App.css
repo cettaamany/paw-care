@@ -1,0 +1,23 @@
+/* src/App.css */
+
+.App-Container {
+  /* Mengatur lebar maksimum */
+  max-width: 1200px; 
+  /* PENTING: Centering horizontal */
+  margin: 0 auto; 
+  padding: 20px; 
+}
+
+.guide-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.loading-message {
+    text-align: center;
+    color: #555;
+    font-size: 1.1em;
+}

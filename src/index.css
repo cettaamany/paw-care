@@ -1,0 +1,17 @@
+/* src/index.css */
+/* CSS Reset Dasar */
+* {
+  box-sizing: border-box; /* Memastikan padding dan border tidak menambah lebar elemen */
+}
+
+body {
+  margin: 0; /* Menghilangkan margin bawaan yang membuat tampilan miring ke kiri */
+  padding: 0;
+  font-family: Arial, sans-serif; /* Ganti dengan font yang kamu gunakan */
+  background-color: #f4f4f9; /* Warna latar belakang halaman */
+}
+
+/* Pastikan elemen root React mengambil ruang penuh untuk centering */
+#root {
+  min-height: 100vh;
+}
